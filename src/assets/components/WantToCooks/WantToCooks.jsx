@@ -1,14 +1,19 @@
-const WantToCooks = () => {
+import PropTypes from "prop-types";
+import WantToCook from "../WantToCook/WantToCook";
+
+const WantToCooks = ({ wantToCooks }) => {
   return (
-    <div className="mt-12 rounded-2xl  border">
-      <h1 className="my-6 text-xl font-bold text-center font-lexend">Want to Cook: 01 </h1>
-      <hr className="mx-6" />
-      {
+    <div className="">
+      <div>
+        <h1 className="my-6 text-xl font-bold text-center font-lexend">
+          Want to Cook: {wantToCooks.length}{" "}
+        </h1>
+        <hr className="mx-6" />
         <div className="overflow-x-auto">
-          <table className="table table-zebra">
+          <table className="table">
             {/* head */}
             <thead className="font-fira">
-              <tr >
+              <tr>
                 <th></th>
                 <th>Name</th>
                 <th>Time</th>
@@ -16,24 +21,23 @@ const WantToCooks = () => {
               </tr>
             </thead>
             <tbody>
-              {/* row 1 */}
-              <tr className="text-customGray font-fira">
-                <th>1</th>
-                <td>Cy Ganderton</td>
-                <td>Quality Control Specialist</td>
-                <td>Blue</td>
-                <td>
-                  <button className="btn btn-sm rounded-full bg-customGreen border-0 font-bold text-lg px-6 pb-1">
-                  Preparing
-                  </button>
-                </td>
-              </tr>
+              {wantToCooks.map((wantToCook, index) => (
+                <WantToCook
+                  key={index}
+                  wantToCook={wantToCook}
+                  index={index + 1}
+                ></WantToCook>
+              ))}
             </tbody>
           </table>
         </div>
-      }
+      </div>
     </div>
   );
+};
+
+WantToCooks.propTypes = {
+  wantToCooks: PropTypes.object.isRequired,
 };
 
 export default WantToCooks;
