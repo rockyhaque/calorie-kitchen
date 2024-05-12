@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Spicy Chicken Stir-Fry",
+      "image": "https://i.ibb.co/grCVn8R/anna-pelzer-IGf-IGP5-ONV0-unsplash.jpg",
+      "description": "A delicious and quick stir-fry recipe packed with flavor.",
+      "ingredients": ["550g chicken breast", "120ml soy sauce", "200g basil leaves", "400g mushrooms", "2 cloves garlic", "1 red chili"],
+      "time": "30",
+      "calories": "320"
+    },
+    {
+      "id": 2,
+      "name": "Vegetable Quinoa Salad",
+      "image": "https://i.ibb.co/JzgkLx9/brooke-lark-Hl-Ncigv-Ui4-Q-unsplash.jpg",
+      "description": "A nutritious and refreshing salad with quinoa and fresh vegetables.",
+      "ingredients": ["1 cup quinoa", "2 cups mixed vegetables", "120ml soy sauce", "1/4 cup olive oil", "Juice of 1 lemon", "Salt and pepper to taste"],
+      "time": "20",
+      "calories": "250"
+    },
+    {
+      "id": 3,
+      "name": "Creamy Tomato Pasta",
+      "image": "https://i.ibb.co/dt7YkhT/rachel-park-hrlvr2-Zl-UNk-unsplash.jpg",
+      "description": "A creamy and comforting pasta dish with a rich tomato sauce.",
+      "ingredients": ["300g pasta (penne or spaghetti)", "400g canned diced tomatoes", "200ml heavy cream", "2 cloves garlic", "Handful of fresh basil leaves", "Grated Parmesan cheese for garnish"],
+      "time": "25",
+      "calories": "380"
+    },
+    {
+      "id": 4,
+      "name": "Grilled Salmon with Asparagus",
+      "image": "https://i.ibb.co/sCrFWVQ/fe29593b9f62c1def025edfb2345fe84.jpg",
+      "description": "A healthy and flavorful dish featuring grilled salmon and fresh asparagus.",
+      "ingredients": ["4 salmon fillets", "1 bunch asparagus", "2 tablespoons olive oil", "Juice of 1 lemon", "Salt and pepper to taste"],
+      "time": "15",
+      "calories": "280"
+    },
+    {
+      "id": 5,
+      "name": "Mushroom Risotto",
+      "image": "https://i.ibb.co/xYykdvv/5cdba92e95d1813e3a14122be673189a.jpg",
+      "description": "A creamy and indulgent risotto with earthy mushrooms.",
+      "ingredients": ["1 cup Arborio rice", "200g mushrooms (cremini or porcini)", "1 onion", "2 cloves garlic", "1/2 cup dry white wine", "4 cups vegetable broth", "1/4 cup grated Parmesan cheese"],
+      "time": "40",
+      "calories": "350"
+    },
+    {
+      "id": 6,
+      "name": "Banana Oat Pancakes",
+      "image": "https://i.ibb.co/WK9kdTz/lily-banse-YHSwy6uqvk-unsplash.jpg",
+      "description": "A wholesome and delicious pancake recipe made with bananas and oats.",
+      "ingredients": ["2 ripe bananas", "1 cup rolled oats", "2 eggs", "1/2 teaspoon cinnamon", "1 teaspoon vanilla extract", "Maple syrup and fresh fruit for serving"],
+      "time": "15",
+      "calories": "200"
+    }
+  ]
+  
