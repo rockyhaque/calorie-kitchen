@@ -20,7 +20,7 @@ const Banner = () => {
           </p>
           <div className="space-x-6">
             <button className="btn rounded-full bg-customGreen border-0 font-bold text-lg px-6">
-              Explore Now
+              Explore Now!
             </button>
             <button className="btn rounded-full bg-transparent  font-bold text-lg px-6 text-white">
               Our Feedback
